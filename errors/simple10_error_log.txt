@@ -1,0 +1,35 @@
+
+
+Mon Jun  7 11:58:50 2021
+Traceback (most recent call last):
+  File "c:\Users\eefac\Documents\projects\GitHub\10-simple-projects\wordCount.py", line 101, in wordCount
+    with open(myFiles[op], 'r') as myTxtFile:
+TypeError: 'nt.ScandirIterator' object is not subscriptable
+
+
+Mon Jun  7 12:03:41 2021
+Traceback (most recent call last):
+  File "c:\Users\eefac\Documents\projects\GitHub\10-simple-projects\wordCount.py", line 101, in wordCount
+    with open(myFiles[op], 'r') as myTxtFile:
+TypeError: 'nt.ScandirIterator' object is not subscriptable
+
+
+Mon Jun  7 12:08:14 2021
+Traceback (most recent call last):
+  File "c:\Users\eefac\Documents\projects\GitHub\10-simple-projects\wordCount.py", line 103, in wordCount
+    with open(files[op], 'r') as myTxtFile:
+TypeError: 'NoneType' object is not subscriptable
+
+
+Mon Jun  7 12:09:55 2021
+Traceback (most recent call last):
+  File "c:\Users\eefac\Documents\projects\GitHub\10-simple-projects\wordCount.py", line 104, in wordCount
+    with open(files[op], 'r') as myTxtFile:
+TypeError: 'NoneType' object is not subscriptable
+
+
+Mon Jun  7 12:17:19 2021
+Traceback (most recent call last):
+  File "c:\Users\eefac\Documents\projects\GitHub\10-simple-projects\wordCount.py", line 124, in wordCount
+    print(myFiles[0])
+TypeError: 'nt.ScandirIterator' object is not subscriptable
